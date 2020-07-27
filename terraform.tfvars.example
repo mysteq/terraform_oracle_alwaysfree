@@ -1,0 +1,18 @@
+ssh_public_key = "ssh-rsa XXXXX example@techie.cloud"
+tenancy_ocid = "ocid1.tenancy.oc1..xxxx"
+user_ocid = "ocid1.user.oc1..xxxx"
+fingerprint = "00:00:00:00:00:00:00:00:ed:00:00:00:00:00:00:00"
+private_key_path = "~/.oci/oci_api_key.pem"
+region = "eu-frankfurt-1"
+iaas_names = [
+  "FEEEE-OCI-VM01",
+  "FREE-OCI-VM02",
+]
+iaas_images = [
+  "ocid1.image.oc1.eu-frankfurt-1.aaaaaaaa3zdxgogqcjovlhvlxkdhsf2kxqluddyay2hvsmix67rujksol7ha", 
+  "ocid1.image.oc1.eu-frankfurt-1.aaaaaaaa3zdxgogqcjovlhvlxkdhsf2kxqluddyay2hvsmix67rujksol7ha",
+]
+iaas_availability_domain = [
+  "1",
+  "1",
+]
